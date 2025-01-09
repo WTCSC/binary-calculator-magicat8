@@ -15,7 +15,7 @@ def binary_calculator(bin1, bin2, operator):
         while dec > 0:
             binary_str = str(dec % 2) + binary_str
             dec //= 2
-        return binary_str
+       #return binary_str
 
     def format_to_8_bit(bin_str):
         return bin_str.zfill(8)
